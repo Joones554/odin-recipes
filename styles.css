@@ -1,1 +1,22 @@
 /* styles.css */
+*{
+    text-align: center;
+}
+
+ul, ol {
+    list-style-position: inside;
+  }
+
+body {
+    background-color: rgb(rgb(234, 236, 100));
+}
+
+h1 {
+    background-color: rgb(218, 132, 52);
+    color: rgb(118, 219, 23);
+}
+
+h2 {
+    border-style:ridge;
+    border-color: rgb(118, 219, 23);
+}
