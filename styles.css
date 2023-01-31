@@ -1,11 +1,6 @@
-/* styles.css */
 *{
-    text-align: center;
+    width: 500px;
 }
-
-ul, ol {
-    list-style-position: inside;
-  }
 
 body {
     background-color: rgb(234, 236, 100);
@@ -14,14 +9,31 @@ body {
 h1 {
     background-color: rgb(218, 132, 52);
     color: rgb(118, 219, 23);
+    text-align: center;
 }
 
-h2 {
+h2, h3 {
     border-style:ridge;
     border-color: rgb(118, 219, 23);
+    text-align: center;
+}
+
+ul {
+    list-style: lower-roman;
 }
 
 .granny {
     color: darkred;
     font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.why {
+    list-style-type:armenian;
+}
+
+.short {
+    background: rgba(6, 83, 6, 0.1)
+}
+
